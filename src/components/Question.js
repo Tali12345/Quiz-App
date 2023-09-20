@@ -1,5 +1,6 @@
 import React from 'react';
 import questions from './questions.json';
+import AnswerButton from './AnswerButton';
 
 function Question(props) {
 
@@ -15,7 +16,9 @@ function Question(props) {
             {Object.entries(questions[props.number_question].answers).map((item, index) => {
                 return (
                     <tr>
-                        <td class="button_column">{index+1}</td>
+                        <td class="button_column">
+                            <AnswerButton number_answer={index+1}></AnswerButton>
+                        </td>
                         <td>{item[1]}</td>
                     </tr>
                 );

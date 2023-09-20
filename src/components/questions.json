@@ -1,0 +1,56 @@
+[
+    {
+      "question": "What does the term 'full stack' refer to in web development?",
+      "answers": {
+        "1": "A type of programming language",
+        "2": "A type of web browser",
+        "3": "A comprehensive approach to developing both front-end and back-end of a web application",
+        "4": "A type of database management system"
+      }
+    },
+    {
+        "question": "Which of the following numbers is NOT a prime number?",
+        "answers": {
+            "1": "2",
+            "2": "5",
+            "3": "10",
+            "4": "17"
+        }
+    },
+    {
+        "question": "Which organization developed the large language model known as GPT-3?",
+        "answers": {
+            "1": "Google",
+            "2": "Facebook",
+            "3": "OpenAI",
+            "4": "Microsoft"
+        }
+    },
+    {
+        "question": "What is the term for a programming technique that allows a function to call itself?",
+        "answers": {
+            "1": "Iteration",
+            "2": "Encapsulation",
+            "3": "Inheritance",
+            "4": "Recursion"
+        }
+    },
+    {
+        "question": "In computer science, what is the term used to describe a data structure that follows the 'Last-In, First-Out' (LIFO) principle?",
+        "answers": {
+            "1": "Queue",
+            "2": "Stack",
+            "3": "Linked List",
+            "4": "Tree"
+        }
+    },
+    {
+        "question": "What is a defining characteristic of large language models like GPT-3 and their role in generative AI?",
+        "answers": {
+            "1": "They primarily focus on image recognition tasks.",
+            "2": "They require constant human supervision to generate text.",
+            "3": "They have the ability to generate human-like text and understand context.",
+            "4": "They only work with a single language and cannot handle multilingual tasks."
+        }
+    }
+]

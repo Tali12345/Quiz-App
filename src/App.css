@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.div_question {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+H1 { text-align: center }
+
+.button_column {
+  width: 10%;
+}
+
+

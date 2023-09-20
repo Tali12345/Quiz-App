@@ -1,33 +1,25 @@
 import React from 'react';
+import questions from './questions.json';
 
-function Question() {
+function Question(props) {
 
   return (
-    <div>
+    <div class="div_question">
         <table class="table table-hover table-sm">
             <thead>
                 <tr class="table-primary">
-                    <th></th>
-                    <th>Qustion?</th>
+                    <th colspan="2">{questions[props.number_question].question}</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Answer 1</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Answer 2</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Answer 3</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Answer 4</td>
-                </tr>
+            {Object.entries(questions[props.number_question].answers).map((item, index) => {
+                return (
+                    <tr>
+                        <td class="button_column">{index+1}</td>
+                        <td>{item[1]}</td>
+                    </tr>
+                );
+            })}
             </tbody>
         </table>
     </div>

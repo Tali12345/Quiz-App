@@ -10,7 +10,7 @@ function App() {
       <h1>Quiz</h1>
       {questions.map((item, index) => {
         return (
-          <Question number_question={index}></Question>
+          <Question index_question={index} key={index}></Question>
         );
       })}
     </div>

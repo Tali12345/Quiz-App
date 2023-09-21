@@ -1,7 +1,8 @@
 import React from 'react';
 import Question from './components/Question';
+import Results from './components/Results';
 import './App.css';
-import questions from './components/questions.json';
+import questions from './q&a/questions.json';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Question index_question={index} key={index}></Question>
         );
       })}
+      <Results></Results>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import questions from './questions.json';
+import questions from '../q&a/questions.json';
 import AnswerButton from './AnswerButton';
 
 function Question(props) {

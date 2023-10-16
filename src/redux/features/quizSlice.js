@@ -36,7 +36,6 @@ export const quizSlice = createSlice({
                 temp_correct_answers[key]=state.value.question_to_answer[key];
             }
         }
-        console.log("temp_wrong_answers", temp_wrong_answers);
         return {
             ...state,
             value: {

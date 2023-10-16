@@ -21,7 +21,6 @@ function Results() {
         </div> : 
         <div className="alert alert-light" role="alert">
         <p>Not quite right, {Object.keys(wrong_answers).length} answers are wrong </p>
-        <h1>Try Again</h1>
         <Reset name="Try Again"></Reset>
         </div>)
         }

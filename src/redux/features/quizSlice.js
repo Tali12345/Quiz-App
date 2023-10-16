@@ -4,8 +4,8 @@ import answers from './answers.json';
 const initialState = {
   value: {
     question_to_answer: {},
-    correct_answers: answers,
     wrong_answers: {},
+    correct_answers: {},
     submitted: 0
   }
 };
@@ -28,9 +28,12 @@ export const quizSlice = createSlice({
     },
     checkAnswers: (state) => {
         const temp_wrong_answers = {};
-        for (const [key, value] of Object.entries(state.value.correct_answers)) {
+        const temp_correct_answers = {};
+        for (const [key, value] of Object.entries(answers)) {
             if (state.value.question_to_answer[key]!==parseInt(value)) {
                 temp_wrong_answers[key]=state.value.question_to_answer[key];
+            } else {
+                temp_correct_answers[key]=state.value.question_to_answer[key];
             }
         }
         console.log("temp_wrong_answers", temp_wrong_answers);
@@ -39,6 +42,7 @@ export const quizSlice = createSlice({
             value: {
               ...state.value,
               wrong_answers: temp_wrong_answers,
+              correct_answers: temp_correct_answers,
               submitted: 1,
             }
         };

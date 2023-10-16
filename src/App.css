@@ -64,7 +64,12 @@ H1 { text-align: center }
 
 .quiz-questions {
   overflow-y: scroll;
-  height: 280px;
+  height: 370px;
+  margin-top:150px;
+}
+
+.title {
+  height: 50px;
 }
 
 

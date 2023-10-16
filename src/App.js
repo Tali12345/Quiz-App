@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <div>
+      <div className="title">
         <div className="info-container">
           <h1> 📖  Quiz  💡 </h1>
         </div>

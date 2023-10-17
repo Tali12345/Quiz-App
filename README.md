@@ -1,5 +1,9 @@
 # Quiz App
 
+
+https://github.com/Tali12345/Quiz-App/assets/89640588/b5f864b0-da50-469e-a1f9-129a1811610e
+
+
 ## How to Run?
 1. Run `git clone https://github.com/Tali12345/Quiz-App.git`.
 2. Run `cd Quiz-App`.

@@ -15,7 +15,8 @@ After the submission, the user has the option to retake the quiz.
 
 The redux store holds the current application state. The local storage persists the application state so after clicking the refresh button in the browser the state is still kept. 
 
-**Technologies: JavaScript, React, Redux, HTML, CSS, Bootstrap, local storage, ChatGPT** 
+## Technologies
+**JavaScript, React, Redux, HTML, CSS, Bootstrap, local storage, ChatGPT** 
 
 
 
